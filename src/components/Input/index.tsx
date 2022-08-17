@@ -13,7 +13,7 @@ import { Container } from './styles';
 
 type InputProps = HTMLProps<HTMLInputElement> & {
   name: string;
-  icon: IconType
+  icon?: IconType
 }
 
 const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
